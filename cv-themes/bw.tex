@@ -5,6 +5,7 @@
 \definecolor{sidebartext}{HTML}{FFFFFF}
 \definecolor{bodytitle}{HTML}{24272B}
 \definecolor{bodytext}{HTML}{6c6c6d}
+%\definecolor{bulletcolor}{HTML}{24272B}
 \definecolor{bulletcolor}{HTML}{24272B}
 \definecolor{linkcolor}{HTML}{3E78B2}
 \definecolor{linecolor}{HTML}{24272B}
@@ -112,7 +113,7 @@
             \begin{tabular*}{\columnwidth}{@{}L{.4\columnwidth}L{.6\columnwidth}}
                 {\x} &
                 \foreach \z in {1,...,5}{%
-                    {\ifnumgreater{\z}{\y}{\color{bodytext!30}}{\color{bodytext}}\small{\faCircle}}}\\
+                    {\ifnumgreater{\z}{\y}{\color{bodytext}}{\color{bodytext!30}}\small{\faCircle}}}\\
             \end{tabular*}
         }
     }}
